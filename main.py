@@ -5,8 +5,19 @@ print("Hello " + "Abenezer")
 # indentation is key. use the code intelligence
 # error messages come in order
 
-# input function
+# input function and variables
 name = input("Enter your name ")
 print("hello " + name)
 # length
-print("your name has " + str(len(name)) + " characters" )
+length = len(name)
+print("your name has " + str(length) + " characters" )
+
+# swapping variables
+a = input("a: ")
+b = input("b: ")
+temp = a
+a = b
+b = temp 
+
+print ("a = " + a)
+print ("b = " + b)

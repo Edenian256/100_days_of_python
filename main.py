@@ -8,3 +8,5 @@ print("Hello " + "Abenezer")
 # input function
 name = input("Enter your name ")
 print("hello " + name)
+# length
+print("your name has " + str(len(name)) + " characters" )

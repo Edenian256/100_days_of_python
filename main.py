@@ -4,3 +4,7 @@ print("Day 1 - Python Print Function\nThe function is declared like this:\nprint
 print("Hello " + "Abenezer")
 # indentation is key. use the code intelligence
 # error messages come in order
+
+# input function
+name = input("Enter your name ")
+print("hello " + name)

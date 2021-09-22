@@ -15,9 +15,16 @@ print("your name has " + str(length) + " characters" )
 # swapping variables
 a = input("a: ")
 b = input("b: ")
+
 temp = a
 a = b
 b = temp 
 
 print ("a = " + a)
-print ("b = " + b)
+print ("b = " + b) 
+# band name 
+print("Welcom to band name generator")
+city_name = input("what's the city you grew up in? \n")
+pet_name = input("what is the name of your pet? \n")
+
+print("your band name is " + city_name + " " + pet_name )
